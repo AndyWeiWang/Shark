@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cages" max_length="40" name="x_cdltd_shark_cages" sizeclass="0" type="collection">
+        <element choice="3" label="Stock" mandatory="true" max_length="40" name="quantity" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" label="Size" mandatory="true" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Large"/>
+                <element inactive_on_update="false" label="Medium"/>
+                <element inactive_on_update="false" label="Small"/>
+            </choice>
+        </element>
+    </element>
+</database>
